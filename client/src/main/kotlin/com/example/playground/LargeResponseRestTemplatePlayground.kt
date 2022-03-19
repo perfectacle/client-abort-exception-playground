@@ -9,7 +9,7 @@ import java.time.Duration
 import java.time.LocalDateTime
 
 fun main() {
-    val readTimeout = Duration.ofMillis(5L)
+    val readTimeout = Duration.ofMillis(15L)
     val restTemplate = RestTemplate(
         HttpComponentsClientHttpRequestFactory(
             HttpClientBuilder
